@@ -6,8 +6,8 @@
       <class name="test_cases.Smoke_Tests">
         <methods>
           <include name="after_test_closing"/>
+          <include name="TC_01_verify_json_data_received_as_required"/>
           <include name="before_test_init"/>
-          <include name="TC_04_verify_at_least_one_wicket_keeper_available_in_team"/>
         </methods>
       </class> <!-- test_cases.Smoke_Tests -->
     </classes>
