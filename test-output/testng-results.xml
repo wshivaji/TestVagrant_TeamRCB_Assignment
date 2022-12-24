@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-24T12:09:41 IST" name="Suite" finished-at="2022-12-24T12:09:44 IST" duration-ms="2310">
+  <suite started-at="2022-12-24T14:02:26 IST" name="Default suite" finished-at="2022-12-24T14:02:28 IST" duration-ms="2129">
     <groups>
     </groups>
-    <test started-at="2022-12-24T12:09:41 IST" name="Test" finished-at="2022-12-24T12:09:44 IST" duration-ms="2310">
+    <test started-at="2022-12-24T14:02:26 IST" name="Default test" finished-at="2022-12-24T14:02:28 IST" duration-ms="2129">
       <class name="test_cases.Smoke_Tests">
-        <test-method is-config="true" signature="before_test_init()[pri:0, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T12:09:42 IST" name="before_test_init" finished-at="2022-12-24T12:09:42 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="before_test_init()[pri:0, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T14:02:26 IST" name="before_test_init" finished-at="2022-12-24T14:02:26 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_test_init -->
-        <test-method signature="TC_01_verify_json_data_received_as_required()[pri:1, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T12:09:42 IST" name="TC_01_verify_json_data_received_as_required" finished-at="2022-12-24T12:09:43 IST" duration-ms="1511" status="PASS">
+        <test-method signature="TC_01_verify_json_data_received_as_required()[pri:1, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T14:02:26 IST" name="TC_01_verify_json_data_received_as_required" finished-at="2022-12-24T14:02:28 IST" duration-ms="1738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_verify_json_data_received_as_required -->
-        <test-method signature="TC_02_verify_all_key_value_pairs_received()[pri:2, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T12:09:43 IST" name="TC_02_verify_all_key_value_pairs_received" finished-at="2022-12-24T12:09:44 IST" duration-ms="97" status="PASS">
+        <test-method signature="TC_02_verify_all_key_value_pairs_received()[pri:2, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T14:02:28 IST" name="TC_02_verify_all_key_value_pairs_received" finished-at="2022-12-24T14:02:28 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_verify_all_key_value_pairs_received -->
-        <test-method signature="TC_03_verify_at_least_one_player_is_foraigner_in_team()[pri:2, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T12:09:44 IST" name="TC_03_verify_at_least_one_player_is_foraigner_in_team" finished-at="2022-12-24T12:09:44 IST" duration-ms="99" status="PASS">
+        <test-method signature="TC_03_verify_at_least_one_player_is_foraigner_in_team()[pri:2, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T14:02:28 IST" name="TC_03_verify_at_least_one_player_is_foraigner_in_team" finished-at="2022-12-24T14:02:28 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_verify_at_least_one_player_is_foraigner_in_team -->
-        <test-method signature="TC_04_verify_at_least_one_wicket_keeper_available_in_team()[pri:2, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T12:09:44 IST" name="TC_04_verify_at_least_one_wicket_keeper_available_in_team" finished-at="2022-12-24T12:09:44 IST" duration-ms="91" status="PASS">
+        <test-method signature="TC_04_verify_at_least_one_wicket_keeper_available_in_team()[pri:2, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T14:02:28 IST" name="TC_04_verify_at_least_one_wicket_keeper_available_in_team" finished-at="2022-12-24T14:02:28 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04_verify_at_least_one_wicket_keeper_available_in_team -->
-        <test-method is-config="true" signature="after_test_closing()[pri:0, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T12:09:44 IST" name="after_test_closing" finished-at="2022-12-24T12:09:44 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="after_test_closing()[pri:0, instance:test_cases.Smoke_Tests@53fd0d10]" started-at="2022-12-24T14:02:28 IST" name="after_test_closing" finished-at="2022-12-24T14:02:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_test_closing -->
       </class> <!-- test_cases.Smoke_Tests -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

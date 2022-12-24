@@ -3,11 +3,9 @@ package test_cases;
 
 
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashMap;
 
-import org.ini4j.InvalidFileFormatException;
+import java.io.FileReader;
+
 import org.json.simple.*;
 import org.json.simple.parser.*;
 
@@ -57,7 +55,7 @@ public class Smoke_Tests extends Team_RCB_Object {
 			
 			ExtentTest TC_01 = report.createTest("TC 01 verify json data received as required");
 			
-			if(jobj.get("name").equals("Royal Challengers Bangalore")  && jobj.get("location").equals("Bangalore")) {
+			if(jobj.get("name").equals(Team_Name)  && jobj.get("location").equals(Location)) {
 				TC_01.log(Status.PASS, "TeamRCB Data Received TC-01 pass");
 				TC_01.log(Status.INFO, "Test Case TC-01 Pass");
 				report.flush();
@@ -118,7 +116,7 @@ public class Smoke_Tests extends Team_RCB_Object {
 			ExtentTest TC_03 = report.createTest("TC-03 verify at least one player is foraigner in team");
 			for (int i=0; i<array.size();i++) {
 				players = (JSONObject) array.get(i);
-				if(players.get("country")!="India") {
+				if(players.get("country")!=Country_Name) {
 					check_tc03 = true;
 					break;
 				}
@@ -151,7 +149,7 @@ public class Smoke_Tests extends Team_RCB_Object {
 			ExtentTest TC_04 = report.createTest("TC-04 verify at least one wicket keeper available in team");
 			for (int i=0; i<array.size();i++) {
 				players = (JSONObject) array.get(i);
-				while(players.get("role")!="Wicket-keeper") {
+				while(players.get("role")!=Role) {
 					check = true;
 					break;
 				}
