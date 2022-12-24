@@ -19,13 +19,21 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
+import pom.Team_RCB_Object;
 
 
 
-public class Smoke_Tests extends A_Initializations {
+
+public class Smoke_Tests extends Team_RCB_Object {
 
 	
 	
+
+	Smoke_Tests() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@BeforeTest
 	public void before_test_init() {
 		try {
@@ -43,8 +51,9 @@ public class Smoke_Tests extends A_Initializations {
 	@Test(priority = 1)
 	public void TC_01_verify_json_data_received_as_required() {
 		try {
-			Assert.assertEquals(jobj.get("name"), "Royal Challengers Bangalore");
-			Assert.assertEquals(jobj.get("location"), "Bangalore");
+			System.out.println("ini data: "+Team_Name+" Location: "+Location);
+			Assert.assertEquals(jobj.get("name"), Team_Name);
+			Assert.assertEquals(jobj.get("location"), Location);
 			
 			ExtentTest TC_01 = report.createTest("TC 01 verify json data received as required");
 			
